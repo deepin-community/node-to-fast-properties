@@ -1,0 +1,25 @@
+Source: node-to-fast-properties
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>,
+           Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               node-tape <!nocheck>,
+               pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-to-fast-properties
+Vcs-Git: https://salsa.debian.org/js-team/node-to-fast-properties.git
+Homepage: https://github.com/sindresorhus/to-fast-properties
+Rules-Requires-Root: no
+
+Package: node-to-fast-properties
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs
+Description: Force V8 to use fast properties for an object
+ With to-fast-properties, force V8 to use fast properties for an object.
+ .
+ Use %HasFastProperties(object) and --allow-natives-syntaxto check whether an
+ object already has fast properties.

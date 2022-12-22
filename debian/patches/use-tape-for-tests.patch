@@ -1,0 +1,15 @@
+Description: This patch uses tape instead of ava for the tests.
+ It still needs some debugging, though.
+Author: Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Forwarded: not-needed
+Last-Update: 2019-08-28
+
+--- a/test.js
++++ b/test.js
+@@ -1,5 +1,5 @@
+ 'use strict';
+-const test = require('ava');
++const test = require('tape');
+ const toFastProperties = require('.');
+ 
+ const toSlowProperties = object => {

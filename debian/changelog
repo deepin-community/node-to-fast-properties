@@ -1,0 +1,57 @@
+node-to-fast-properties (3.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 3.0.1
+  * Remove fix-for-nodejs-12 patch now included in upstream
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 05 Feb 2020 13:34:54 +0100
+
+node-to-fast-properties (3.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Fix metadata
+  * Add upstream fix for Node.js ≥ 12
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 24 Jan 2020 18:58:52 +0100
+
+node-to-fast-properties (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * New upstream version 3.0.0
+  * Update debian/copyright
+  * Refresh patch
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 19 Nov 2019 20:06:18 +0100
+
+node-to-fast-properties (2.0.0-1) experimental; urgency=medium
+
+  * New upstream version 2.0.0
+  * Add patch to use tape for tests
+  * Switch test and install to pkg-js-tools
+  * Bump Standards-Version to 4.4.0
+  * Bump debhelper-compat to 12
+  * Drop d/compat
+  * Update d/copyright
+  * Add d/upstream/metadata
+  * Update description in d/control
+  * Fix autopkgtest
+  * Add myself as an uploader
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Wed, 28 Aug 2019 08:02:05 +0530
+
+node-to-fast-properties (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #845174)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 21 Nov 2016 10:17:20 +0530

@@ -1,0 +1,1 @@
+node --allow-natives-syntax test.js

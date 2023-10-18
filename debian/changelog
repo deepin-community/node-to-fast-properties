@@ -1,3 +1,24 @@
+node-to-fast-properties (3.0.1-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-to-fast-properties: Add Multi-Arch: foreign.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 20:59:07 +0000
+
+node-to-fast-properties (3.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Wed, 24 Nov 2021 18:08:20 +0100
+
 node-to-fast-properties (3.0.1-1) unstable; urgency=medium
 
   * Team upload
